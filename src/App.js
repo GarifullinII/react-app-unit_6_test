@@ -1,11 +1,11 @@
 
 import './App.css';
-import Test from './Test';
+import TestClass from './TestClass';
 
 function App() {
   return (
    <>
-    <Test/>
+    <TestClass argument={1000}/>
    </>
   );
 }
